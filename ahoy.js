@@ -10,9 +10,9 @@ var client = new twilio.RestClient(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 // Pass in parameters to the REST API using an object literal notation. The
 // REST client will handle authentication and response serialzation for you.
 client.sms.messages.create({
-    to:'+15133739473',
+    to:'+19723637332',
     from:'+18597400088',
-    body:'Are you Mike Dinh?'
+    body:'I am messaging you from an untraceable phone number...'
 }, function(error, message) {
     // The HTTP request to Twilio will run asynchronously. This callback
     // function will be called when a response is received from Twilio
