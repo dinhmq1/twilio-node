@@ -1,0 +1,14 @@
+{
+  "name": "twilio-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ahoy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "md",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^2.9.0"
+  }
+}
